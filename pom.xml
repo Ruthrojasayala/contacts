@@ -15,8 +15,16 @@
 
 	<name>commons-microservices</name>
 	<description>Demo project for Spring Boot</description>
-
 	
+
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.0</version>
+        <configuration>
+            <release>7</release>
+        </configuration>
+    </plugin>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
