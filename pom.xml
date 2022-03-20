@@ -16,7 +16,6 @@
 	<name>commons-microservices</name>
 	<description>Demo project for Spring Boot</description>
 	
-	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
